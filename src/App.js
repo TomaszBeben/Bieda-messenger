@@ -6,6 +6,7 @@ import db from './components/config'
 
 const App = () => {
   const[newMessage, setNewMessage]= useState('');
+  const[user, setUser]= useState('')
   const[messages, setMessages] = useState([]);
   useEffect(()=>{
     db.ref('/messages').on('value', (snapshot)=>{
@@ -23,7 +24,7 @@ const App = () => {
   const handleSubmit = (event)=>{
     event.preventDefault();
     const messageObj = {
-      user: 'Tomek',
+      user: user,
       content: newMessage,
       datetime: Date.now()
     };
@@ -33,6 +34,17 @@ const App = () => {
 
     setNewMessage('')
   }
+  // const handleUserSubmit = (event)=>{
+  //   event.preventDefault();
+  //   const messageObj = {
+  //     user: user,
+  //     content: newMessage,
+  //     datetime: Date.now()
+  //   };
+  //     db.ref('/messages').push(messageObj);
+
+  //   setNewMessage('')
+  // }
   // const messages = [
   //   { id: 1, user: 'Emil', content: 'elo', datetime: Date.now() },
   //   { id: 2, user: 'Omil', content: 'elo', datetime: Date.now() },
@@ -45,9 +57,11 @@ const App = () => {
         <Message key={message.id} message={message} />
       ))}
       <MessageForm
+      user={user}
       message={newMessage}
       handleSubmit={handleSubmit}
       handleContentChange={setNewMessage}
+      handleUserChange={setUser}
       />
     </div>
   )
