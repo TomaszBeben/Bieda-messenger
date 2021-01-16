@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Bieda-messenger/static/css/main.4331a531.chunk.css",
-    "main.js": "/Bieda-messenger/static/js/main.539bd0af.chunk.js",
-    "main.js.map": "/Bieda-messenger/static/js/main.539bd0af.chunk.js.map",
+    "main.css": "/Bieda-messenger/static/css/main.db92d8fe.chunk.css",
+    "main.js": "/Bieda-messenger/static/js/main.87b12273.chunk.js",
+    "main.js.map": "/Bieda-messenger/static/js/main.87b12273.chunk.js.map",
     "runtime-main.js": "/Bieda-messenger/static/js/runtime-main.1d63add3.js",
     "runtime-main.js.map": "/Bieda-messenger/static/js/runtime-main.1d63add3.js.map",
     "static/js/2.049f292f.chunk.js": "/Bieda-messenger/static/js/2.049f292f.chunk.js",
     "static/js/2.049f292f.chunk.js.map": "/Bieda-messenger/static/js/2.049f292f.chunk.js.map",
     "index.html": "/Bieda-messenger/index.html",
-    "static/css/main.4331a531.chunk.css.map": "/Bieda-messenger/static/css/main.4331a531.chunk.css.map",
+    "static/css/main.db92d8fe.chunk.css.map": "/Bieda-messenger/static/css/main.db92d8fe.chunk.css.map",
     "static/js/2.049f292f.chunk.js.LICENSE.txt": "/Bieda-messenger/static/js/2.049f292f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1d63add3.js",
     "static/js/2.049f292f.chunk.js",
-    "static/css/main.4331a531.chunk.css",
-    "static/js/main.539bd0af.chunk.js"
+    "static/css/main.db92d8fe.chunk.css",
+    "static/js/main.87b12273.chunk.js"
   ]
 }
