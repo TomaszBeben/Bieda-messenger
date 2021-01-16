@@ -1,7 +1,7 @@
 {
     "name": "komunikator",
     "version": "0.1.0",
-    "homepage": "https://tomaszbeben.github.io/Bieda-messenger",
+    "homepage": "https://tomaszbeben.github.io/Bieda-messenger/",
     "private": true,
     "dependencies": {
         "firebase": "^8.2.3",
