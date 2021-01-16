@@ -12,7 +12,8 @@ const MessageForm = ({ handleSubmit, handleContentChange, message, user, handleU
                     placeholder='name'
                     value={user}
                     onChange={(event) => handleUserChange(event.target.value)}/>
-                <input
+                <textarea
+                    cols='3'
                     className='content'
                     placeholder='message'
                     type='text'

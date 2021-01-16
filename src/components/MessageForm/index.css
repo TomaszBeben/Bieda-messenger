@@ -2,11 +2,16 @@ input {
     margin-top: 5px;
 }
 
+.button {
+    align-items: center;
+    width: 25%;
+}
+
 .form {
     display: flex;
     flex-direction: column;
 }
 
 .name {
-    width: 40%;
+    width: 50%;
 }
